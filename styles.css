@@ -1,81 +1,57 @@
 #Poster {
   max-width: 200px;
   max-height: 320px;
-  
-    padding-left: 0px;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-top:10px;
+  padding-left: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-top: 10px;
 }
-
-
-
 #Box {
   width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   background-color: #f6e9d7;
-
-    padding-left: 20px;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    padding-top:0px;
-
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-top: 0px;
 }
-
 #Content {
-	padding-top: 50px;
-	width: 400px;
+  padding-top: 50px;
+  width: 400px;
 }
-
 h2 {
-
+  color: #421e19;
 }
-
-p {
-
-}
-
-li {
-
-}
-
 .filled {
-	color: maroon;
+  color: maroon;
 }
-
 .empty {
-	color: rgb(180, 180, 180);
+  color: #b4b4b4;
 }
-
 #Stars {
   user-select: none;
   cursor: pointer;
   padding-left: 3px;
 }
-
 #s1:hover {
   color: maroon;
-  transition:color 1s linear;
+  transition: color 1s linear;
 }
-
 #s2:hover {
   color: maroon;
-  transition:color 1s linear;
+  transition: color 1s linear;
 }
-
 #s3:hover {
   color: maroon;
-  transition:color 1s linear;
+  transition: color 1s linear;
 }
-
 #s4:hover {
   color: maroon;
-  transition:color 1s linear;
+  transition: color 1s linear;
 }
-
 #s5:hover {
   color: maroon;
-  transition:color 1s linear;
+  transition: color 1s linear;
 }
