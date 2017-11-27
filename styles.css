@@ -1,0 +1,41 @@
+.Poster {
+  max-width: 200px;
+  max-height: 320px;
+  
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top:30px;
+}
+
+
+
+.Box {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top:30px;
+
+}
+
+.Content {
+	padding-top: 50px;
+	width: 500px;
+}
+
+h1 {
+	
+}
+
+p {
+
+}
+
+li {
+
+}
