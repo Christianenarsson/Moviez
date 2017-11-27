@@ -39,3 +39,16 @@ p {
 li {
 
 }
+
+.filled {
+	color: maroon;
+}
+
+.empty {
+	color: rgb(180, 180, 180);
+}
+
+#Stars {
+  user-select: none;
+  cursor: pointer;
+}
