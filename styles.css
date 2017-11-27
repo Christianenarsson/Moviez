@@ -1,4 +1,4 @@
-.Poster {
+#Poster {
   max-width: 200px;
   max-height: 320px;
   
@@ -10,7 +10,7 @@
 
 
 
-.Box {
+#Box {
   width: 900px;
   margin: 0 auto;
   display: flex;
@@ -23,7 +23,7 @@
 
 }
 
-.Content {
+#Content {
 	padding-top: 50px;
 	width: 500px;
 }
