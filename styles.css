@@ -5,31 +5,32 @@
     padding-left: 0px;
     padding-right: 15px;
     padding-bottom: 0px;
-    padding-top:30px;
+    padding-top:10px;
 }
 
 
 
 #Box {
-  width: 900px;
+  width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  background-color: #f6e9d7;
 
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-top:0px;
 
 }
 
 #Content {
 	padding-top: 50px;
-	width: 500px;
+	width: 400px;
 }
 
-h1 {
-	
+h2 {
+
 }
 
 p {
@@ -51,4 +52,30 @@ li {
 #Stars {
   user-select: none;
   cursor: pointer;
+  padding-left: 3px;
+}
+
+#s1:hover {
+  color: maroon;
+  transition:color 1s linear;
+}
+
+#s2:hover {
+  color: maroon;
+  transition:color 1s linear;
+}
+
+#s3:hover {
+  color: maroon;
+  transition:color 1s linear;
+}
+
+#s4:hover {
+  color: maroon;
+  transition:color 1s linear;
+}
+
+#s5:hover {
+  color: maroon;
+  transition:color 1s linear;
 }

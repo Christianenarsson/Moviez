@@ -1,29 +1,31 @@
 function renderMovie(movie){
-  document.querySelector("h2").innerText = movie.title;
-  document.querySelector("p").innerText = movie.synopsis;
-  document.querySelector("img").setAttribute("src", movie.poster)
+  $("h2").text(movie.title);
+  $("p").text(movie.synopsis);
+  $("img").attr("src", movie.poster);
   
     let actorList = "";
   for(let i=0; i<movie.actors.length; i++){
     actorList += "<li>" + movie.actors[i] + "</li>";
 }
-	document.querySelector("ul").innerHTML = actorList;
+	$("ul").html(actorList);
 };
 
 function changeStarRating(grade){
   for (var i=1; i<=grade; i++){
-  	document.getElementById("s" + i).classList.add("filled");
-  	document.getElementById("s" + i).classList.remove("empty");
+  	$("#s" + i).addClass("filled");
+  	$("#s" + i).removeClass("empty");
   }
   for (var j=grade+1; j<=5; j++){
-  	document.getElementById("s" + j).classList.add("empty");
-  	document.getElementById("s" + j).classList.remove("filled");
+  	$("#s" + j).addClass("empty");
+  	$("#s" + j).removeClass("filled");
   }
 }
 
-	for (let x=1; x<=5; x++) {
-		document.getElementById("s" + x).addEventListener("click", function(){ changeStarRating(x); });
-	}
-
-
 renderMovie(movieData);
+
+
+for (let x=1; x<=5; x++) {
+  $("#s" + x).click(function(){changeStarRating(x);});
+  }
+
+
