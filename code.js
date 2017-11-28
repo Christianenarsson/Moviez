@@ -7,10 +7,10 @@ function renderMovie(movie){
   
     let actorList = "";
   for(let i=0; i<movie.actors.length; i++){
-    actorList += '<li>" + movie.actors[i] + "</li>";
+    actorList += "<li>" + movie.actors[i] + "</li>";
 }
 	$("ul").html(actorList);
-;
+};
 
 function changeStarRating(grade){
   for (var i=1; i<=grade; i++){
