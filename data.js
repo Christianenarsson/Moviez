@@ -1,4 +1,4 @@
-let movieData = {
+module.exports = {
   title : "Cyborg (1989)",
   synopsis : "A martial artist hunts a killer in a plague-infested urban dump of the future. Also, there is a Cyborg...",
   actors : ["Jean-Claude Van Damme", "Deborah Richter", "Vincent Klyn"],

@@ -1,3 +1,5 @@
+let $ = require ("jquery");
+
 function renderMovie(movie){
   $("h2").text(movie.title);
   $("p").text(movie.synopsis);
@@ -21,11 +23,21 @@ function changeStarRating(grade){
   }
 }
 
+let movieData = require("./data");
 renderMovie(movieData);
 
 
 for (let x=1; x<=5; x++) {
   $("#s" + x).click(function(){changeStarRating(x);});
   }
+
+
+
+
+
+
+
+
+
 
 

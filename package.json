@@ -4,7 +4,14 @@
   "description": "",
   "main": "code.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "webpack",
+    "less": "lessc ./styles.less distribution/styles.css",
+    "copyindex": "cp index.html distribution/index.html",
+    
+    "lintless": "stylelint styles.less",
+    "lintjs": "eslint .",
+    "lint": "npm run lintless && npm run lintjs",
+    "build": "npm run bundle && npm run less && npm run copyindex"
   },
   "repository": {
     "type": "git",
@@ -17,15 +24,12 @@
   },
   "homepage": "https://github.com/Christianenarsson/Moviez#readme",
   "devDependencies": {
-    "less": "^2.7.3"
+    "eslint": "^4.12.0",
+    "less": "^2.7.3",
+    "stylelint": "^8.3.1",
+    "webpack": "^3.8.1"
   },
-    "scripts": {
-    "styles": "lessc styles.less styles.css"
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
-
-  
 }
-
-
-
-
